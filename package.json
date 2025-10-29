@@ -1,0 +1,14 @@
+{
+  "name": "data-automations-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch:rates": "node automations/fetch-rates.js",
+    "fetch:crypto": "node automations/fetch-crypto.js",
+    "fetch:weather": "node automations/fetch-weather.js",
+    "fetch:all": "npm run fetch:rates && npm run fetch:crypto && npm run fetch:weather"
+  },
+  "dependencies": {
+    "node-fetch": "3"
+  }
+}
