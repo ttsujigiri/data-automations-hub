@@ -2,7 +2,7 @@ name: Data Scheduler
 
 on:
   schedule:
-    - cron: "0 10 * * *"  # todo dia 07:00 BRT (≈10:00 UTC)
+    - cron: "0 10 * * *"   # executa todo dia às 07:00 BRT
   workflow_dispatch:
 
 jobs:
